@@ -41,14 +41,33 @@ thead>tr, tfoot>tr {
   font-family: 'Rock Salt', cursive;
   color: white;
   font-weight: bold;
-  background-image: url("./assets/leopardskin.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("./assets/leopardskin.jpg");
+  
 }
 
 thead {
   text-shadow: 2px 2px black;
-  linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%);
+  
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  font-weight: bold;
 }
 
 tbody> {
   font-family: 'Helvetica Neu', sans-serif;
+}
+
+tfoot {
+
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  font-weight: bold;
+}
+
+.caption {
+  text-align: right;
+  font-family: 'Rock Salt', cursive;
+  color: darkgray;
 }
